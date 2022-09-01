@@ -1,0 +1,18 @@
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgwrap {
+  width: 22%;
+  margin: auto;
+}
+.imgwrap img {
+  display: block;
+  position: fixed;
+  top: 20vh;
+  width: 100%;
+  max-width: 300px; /*actual image width*/
+  height: auto; /* maintain aspect ratio*/
+  margin: auto; /*optional centering of image*/
+}
